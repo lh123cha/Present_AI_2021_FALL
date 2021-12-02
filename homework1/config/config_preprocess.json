@@ -1,0 +1,9 @@
+{
+  "data_path": "./data/20news.json",
+  "stop_path": "./data/停用词.txt",
+  "max_seqence_length": 150,
+  "embedding_len": 10,
+  "validation_split": 0.8,
+  "output_path": "./data",
+  "use_5split": true
+}

@@ -1,0 +1,21 @@
+{
+  "input_path": "data/word2vec_temp",
+  "output_path": "save/mlp_1",
+  "gpu": false,
+  "optimizer": "adagrad",
+  "lr": 0.01,
+  "lr_decay": 0,
+  "weight_decay": 0.0001,
+  "num_epochs": 150,
+  "batch_size": 128,
+  "num_labels": 20,
+  "embedding_size": 10,
+  "type": "mlp",
+  "config_type": 0,
+  "mlp": {
+    "max_length": 1500,
+    "dropout": 0.5,
+    "hidden_size": 1500,
+    "loss": "cross_entropy"
+  }
+}

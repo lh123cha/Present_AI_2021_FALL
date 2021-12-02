@@ -1,0 +1,11 @@
+{
+  "test-de-path": "./data/de_test.txt",
+  "test-en-path": "./data/en_test.txt",
+  "dev-de-path": "./data/de_dev.txt",
+  "dev-en-path": "./data/en_dev.txt",
+  "train-de-path": "./data/news-commentary-v11.de-en.de",
+  "train-en-path": "./data/news-commentary-v11.de-en.en",
+  "MAX-LENGTH": 20,
+  "train": false,
+  "teacher-forcing-ratio": 0.5
+}
